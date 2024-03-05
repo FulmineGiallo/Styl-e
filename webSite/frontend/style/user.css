@@ -1,0 +1,39 @@
+.userPane
+{
+    background-color: cadetblue;
+    display: grid;
+	grid-template-columns: repeat(2, 1fr); /* Divide in due colonne uguali */
+
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 0.1px solid #92C7CF;
+	overflow: hidden;
+    width: 100%;
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+
+
+.detection 
+{
+    flex:3;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.userInputPane 
+{  
+    padding: 20px;
+    flex: 2;
+    display: flex;
+
+}
+
+.userInput 
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
